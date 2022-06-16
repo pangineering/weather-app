@@ -43,9 +43,9 @@ def add_number(input_num: int):
 #def print_date_time():
 #    print(time.strftime("%A,%d.%B %Y %I:%M:%S %p"))
 if __name__ == '__main__':
-    schedule = BackgroundScheduler(daemon=True)
-    schedule.add_job(retrain_model,trigger='cron',hour=3)
-    schedule.start()
+    #schedule = BackgroundScheduler(daemon=True)
+    #schedule.add_job(retrain_model,trigger='cron',hour=3)
+    #schedule.start()
     app.run()
 
     
